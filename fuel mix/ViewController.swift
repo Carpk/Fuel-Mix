@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var fuelField: UITextField!
+    @IBOutlet weak var mixRatio: UITextField!
+    @IBOutlet weak var gasQuanity: UITextField!
+    @IBOutlet weak var oilQuanity: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
